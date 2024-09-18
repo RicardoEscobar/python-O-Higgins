@@ -9,29 +9,29 @@ friend3 = "Jack"
 friend4 = "Jill"
 friend5 = "Jim"
 
-# Using Lists
+# List
 friends = ["John", "Jane", "Jack", "Jill", "Jim"]
+
+# Print using for loop
+for element in friends:
+    print(element)
+
+# Append a new friend
+friends.append("Juan")
 print(friends)
 
-# Add a friend to the list
-friends.append("Jorge")
-print(friends)
+# Pop a friend
+friend = friends.pop(2)
+print(friend)
 
-# Remove a friend from the list
-friends.pop(3)
-print(friends)
-
+# Remove a friend
 friends.remove("Jane")
 print(friends)
 
-# Modify elements in a list
-friends[2] = "Juan"
+# Update an element on a list
+friends[0] = "Juan"
 print(friends)
 
-# Itarate over all elements of a list
-for element in friends:
-    print(f"My friend is: {element}")
-
-# Different data types on lists
+# Different data types on a list
 datos = [25, "Carlos", True, [1, 2, 3]]
 print(datos[3][1])
