@@ -24,3 +24,7 @@ print(mi_diccionario["edad"])
 # Comprobación de claves
 print("nombre" in mi_diccionario)
 print("zzzz" in mi_diccionario)
+
+# Agregar nuevas llaves a un diccionario existente
+mi_diccionario["ciudad"] = "Mexico"
+print(mi_diccionario)
